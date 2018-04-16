@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4820BC462084A50000E39DB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC452084A50000E39DB7 /* AppDelegate.m */; };
+		4820BC492084A50000E39DB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC482084A50000E39DB7 /* ViewController.m */; };
+		4820BC4C2084A50000E39DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4820BC4A2084A50000E39DB7 /* Main.storyboard */; };
+		4820BC4E2084A50200E39DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4820BC4D2084A50200E39DB7 /* Assets.xcassets */; };
+		4820BC512084A50200E39DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4820BC4F2084A50200E39DB7 /* LaunchScreen.storyboard */; };
+		4820BC542084A50200E39DB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC532084A50200E39DB7 /* main.m */; };
+		4820BC5E2084A50300E39DB7 /* MLSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC5D2084A50300E39DB7 /* MLSearchTests.m */; };
+		4820BC692084A50300E39DB7 /* MLSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC682084A50300E39DB7 /* MLSearchUITests.m */; };
+		4820BC7D2084A56300E39DB7 /* MLSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC772084A56300E39DB7 /* MLSearchBar.m */; };
+		4820BC7E2084A56300E39DB7 /* MLSearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC7A2084A56300E39DB7 /* MLSearchTextField.m */; };
+		4820BC7F2084A56300E39DB7 /* MLSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC7C2084A56300E39DB7 /* MLSearchController.m */; };
+		4820BC8C2084A65100E39DB7 /* UIView+MLViewContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC822084A65100E39DB7 /* UIView+MLViewContrller.m */; };
+		4820BC8D2084A65100E39DB7 /* UIView+MLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC832084A65100E39DB7 /* UIView+MLFrame.m */; };
+		4820BC8E2084A65100E39DB7 /* UIView+MLTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC842084A65100E39DB7 /* UIView+MLTouch.m */; };
+		4820BC8F2084A65100E39DB7 /* UIViewController+MLStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC852084A65100E39DB7 /* UIViewController+MLStatusBarStyle.m */; };
+		4820BC902084A65100E39DB7 /* UIView+MLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC8A2084A65100E39DB7 /* UIView+MLTableView.m */; };
+		4820BC932084A71E00E39DB7 /* MLSearchTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC922084A71E00E39DB7 /* MLSearchTempViewController.m */; };
+		4820BC9F2084A84400E39DB7 /* MLResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820BC9E2084A84400E39DB7 /* MLResultTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4820BC5A2084A50300E39DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4820BC392084A50000E39DB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4820BC402084A50000E39DB7;
+			remoteInfo = MLSearch;
+		};
+		4820BC652084A50300E39DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4820BC392084A50000E39DB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4820BC402084A50000E39DB7;
+			remoteInfo = MLSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4820BC412084A50000E39DB7 /* MLSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4820BC442084A50000E39DB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4820BC452084A50000E39DB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4820BC472084A50000E39DB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4820BC482084A50000E39DB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4820BC4B2084A50000E39DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4820BC4D2084A50200E39DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4820BC502084A50200E39DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4820BC522084A50200E39DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4820BC532084A50200E39DB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4820BC592084A50300E39DB7 /* MLSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4820BC5D2084A50300E39DB7 /* MLSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLSearchTests.m; sourceTree = "<group>"; };
+		4820BC5F2084A50300E39DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4820BC642084A50300E39DB7 /* MLSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4820BC682084A50300E39DB7 /* MLSearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLSearchUITests.m; sourceTree = "<group>"; };
+		4820BC6A2084A50300E39DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4820BC772084A56300E39DB7 /* MLSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSearchBar.m; sourceTree = "<group>"; };
+		4820BC782084A56300E39DB7 /* MLSearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSearchTextField.h; sourceTree = "<group>"; };
+		4820BC792084A56300E39DB7 /* MLSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSearchController.h; sourceTree = "<group>"; };
+		4820BC7A2084A56300E39DB7 /* MLSearchTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSearchTextField.m; sourceTree = "<group>"; };
+		4820BC7B2084A56300E39DB7 /* MLSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSearchBar.h; sourceTree = "<group>"; };
+		4820BC7C2084A56300E39DB7 /* MLSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSearchController.m; sourceTree = "<group>"; };
+		4820BC802084A59E00E39DB7 /* MLSearchDefin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLSearchDefin.h; sourceTree = "<group>"; };
+		4820BC822084A65100E39DB7 /* UIView+MLViewContrller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLViewContrller.m"; sourceTree = "<group>"; };
+		4820BC832084A65100E39DB7 /* UIView+MLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLFrame.m"; sourceTree = "<group>"; };
+		4820BC842084A65100E39DB7 /* UIView+MLTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLTouch.m"; sourceTree = "<group>"; };
+		4820BC852084A65100E39DB7 /* UIViewController+MLStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MLStatusBarStyle.m"; sourceTree = "<group>"; };
+		4820BC862084A65100E39DB7 /* UIView+MLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLTableView.h"; sourceTree = "<group>"; };
+		4820BC872084A65100E39DB7 /* UIView+MLViewContrller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLViewContrller.h"; sourceTree = "<group>"; };
+		4820BC882084A65100E39DB7 /* UIView+MLTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLTouch.h"; sourceTree = "<group>"; };
+		4820BC892084A65100E39DB7 /* UIView+MLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLFrame.h"; sourceTree = "<group>"; };
+		4820BC8A2084A65100E39DB7 /* UIView+MLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLTableView.m"; sourceTree = "<group>"; };
+		4820BC8B2084A65100E39DB7 /* UIViewController+MLStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MLStatusBarStyle.h"; sourceTree = "<group>"; };
+		4820BC912084A71E00E39DB7 /* MLSearchTempViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLSearchTempViewController.h; sourceTree = "<group>"; };
+		4820BC922084A71E00E39DB7 /* MLSearchTempViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLSearchTempViewController.m; sourceTree = "<group>"; };
+		4820BC9D2084A84400E39DB7 /* MLResultTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLResultTableViewController.h; sourceTree = "<group>"; };
+		4820BC9E2084A84400E39DB7 /* MLResultTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLResultTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4820BC3E2084A50000E39DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820BC562084A50300E39DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820BC612084A50300E39DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4820BC382084A50000E39DB7 = {
+			isa = PBXGroup;
+			children = (
+				4820BC432084A50000E39DB7 /* MLSearch */,
+				4820BC5C2084A50300E39DB7 /* MLSearchTests */,
+				4820BC672084A50300E39DB7 /* MLSearchUITests */,
+				4820BC422084A50000E39DB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4820BC422084A50000E39DB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4820BC412084A50000E39DB7 /* MLSearch.app */,
+				4820BC592084A50300E39DB7 /* MLSearchTests.xctest */,
+				4820BC642084A50300E39DB7 /* MLSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4820BC432084A50000E39DB7 /* MLSearch */ = {
+			isa = PBXGroup;
+			children = (
+				4820BC762084A56300E39DB7 /* MLSearch */,
+				4820BC442084A50000E39DB7 /* AppDelegate.h */,
+				4820BC452084A50000E39DB7 /* AppDelegate.m */,
+				4820BC472084A50000E39DB7 /* ViewController.h */,
+				4820BC482084A50000E39DB7 /* ViewController.m */,
+				4820BC4A2084A50000E39DB7 /* Main.storyboard */,
+				4820BC4D2084A50200E39DB7 /* Assets.xcassets */,
+				4820BC4F2084A50200E39DB7 /* LaunchScreen.storyboard */,
+				4820BC522084A50200E39DB7 /* Info.plist */,
+				4820BC532084A50200E39DB7 /* main.m */,
+				4820BC912084A71E00E39DB7 /* MLSearchTempViewController.h */,
+				4820BC922084A71E00E39DB7 /* MLSearchTempViewController.m */,
+				4820BC9D2084A84400E39DB7 /* MLResultTableViewController.h */,
+				4820BC9E2084A84400E39DB7 /* MLResultTableViewController.m */,
+			);
+			path = MLSearch;
+			sourceTree = "<group>";
+		};
+		4820BC5C2084A50300E39DB7 /* MLSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				4820BC5D2084A50300E39DB7 /* MLSearchTests.m */,
+				4820BC5F2084A50300E39DB7 /* Info.plist */,
+			);
+			path = MLSearchTests;
+			sourceTree = "<group>";
+		};
+		4820BC672084A50300E39DB7 /* MLSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4820BC682084A50300E39DB7 /* MLSearchUITests.m */,
+				4820BC6A2084A50300E39DB7 /* Info.plist */,
+			);
+			path = MLSearchUITests;
+			sourceTree = "<group>";
+		};
+		4820BC762084A56300E39DB7 /* MLSearch */ = {
+			isa = PBXGroup;
+			children = (
+				4820BC812084A65100E39DB7 /* Category */,
+				4820BC772084A56300E39DB7 /* MLSearchBar.m */,
+				4820BC782084A56300E39DB7 /* MLSearchTextField.h */,
+				4820BC792084A56300E39DB7 /* MLSearchController.h */,
+				4820BC7A2084A56300E39DB7 /* MLSearchTextField.m */,
+				4820BC7B2084A56300E39DB7 /* MLSearchBar.h */,
+				4820BC7C2084A56300E39DB7 /* MLSearchController.m */,
+				4820BC802084A59E00E39DB7 /* MLSearchDefin.h */,
+			);
+			path = MLSearch;
+			sourceTree = "<group>";
+		};
+		4820BC812084A65100E39DB7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4820BC822084A65100E39DB7 /* UIView+MLViewContrller.m */,
+				4820BC832084A65100E39DB7 /* UIView+MLFrame.m */,
+				4820BC842084A65100E39DB7 /* UIView+MLTouch.m */,
+				4820BC852084A65100E39DB7 /* UIViewController+MLStatusBarStyle.m */,
+				4820BC862084A65100E39DB7 /* UIView+MLTableView.h */,
+				4820BC872084A65100E39DB7 /* UIView+MLViewContrller.h */,
+				4820BC882084A65100E39DB7 /* UIView+MLTouch.h */,
+				4820BC892084A65100E39DB7 /* UIView+MLFrame.h */,
+				4820BC8A2084A65100E39DB7 /* UIView+MLTableView.m */,
+				4820BC8B2084A65100E39DB7 /* UIViewController+MLStatusBarStyle.h */,
+			);
+			name = Category;
+			path = MLSearch/Category;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4820BC402084A50000E39DB7 /* MLSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4820BC6D2084A50300E39DB7 /* Build configuration list for PBXNativeTarget "MLSearch" */;
+			buildPhases = (
+				4820BC3D2084A50000E39DB7 /* Sources */,
+				4820BC3E2084A50000E39DB7 /* Frameworks */,
+				4820BC3F2084A50000E39DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLSearch;
+			productName = MLSearch;
+			productReference = 4820BC412084A50000E39DB7 /* MLSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4820BC582084A50300E39DB7 /* MLSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4820BC702084A50300E39DB7 /* Build configuration list for PBXNativeTarget "MLSearchTests" */;
+			buildPhases = (
+				4820BC552084A50300E39DB7 /* Sources */,
+				4820BC562084A50300E39DB7 /* Frameworks */,
+				4820BC572084A50300E39DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4820BC5B2084A50300E39DB7 /* PBXTargetDependency */,
+			);
+			name = MLSearchTests;
+			productName = MLSearchTests;
+			productReference = 4820BC592084A50300E39DB7 /* MLSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4820BC632084A50300E39DB7 /* MLSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4820BC732084A50300E39DB7 /* Build configuration list for PBXNativeTarget "MLSearchUITests" */;
+			buildPhases = (
+				4820BC602084A50300E39DB7 /* Sources */,
+				4820BC612084A50300E39DB7 /* Frameworks */,
+				4820BC622084A50300E39DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4820BC662084A50300E39DB7 /* PBXTargetDependency */,
+			);
+			name = MLSearchUITests;
+			productName = MLSearchUITests;
+			productReference = 4820BC642084A50300E39DB7 /* MLSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4820BC392084A50000E39DB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "ML Day";
+				TargetAttributes = {
+					4820BC402084A50000E39DB7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4820BC582084A50300E39DB7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4820BC402084A50000E39DB7;
+					};
+					4820BC632084A50300E39DB7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4820BC402084A50000E39DB7;
+					};
+				};
+			};
+			buildConfigurationList = 4820BC3C2084A50000E39DB7 /* Build configuration list for PBXProject "MLSearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4820BC382084A50000E39DB7;
+			productRefGroup = 4820BC422084A50000E39DB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4820BC402084A50000E39DB7 /* MLSearch */,
+				4820BC582084A50300E39DB7 /* MLSearchTests */,
+				4820BC632084A50300E39DB7 /* MLSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4820BC3F2084A50000E39DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4820BC512084A50200E39DB7 /* LaunchScreen.storyboard in Resources */,
+				4820BC4E2084A50200E39DB7 /* Assets.xcassets in Resources */,
+				4820BC4C2084A50000E39DB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820BC572084A50300E39DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820BC622084A50300E39DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4820BC3D2084A50000E39DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4820BC7F2084A56300E39DB7 /* MLSearchController.m in Sources */,
+				4820BC7D2084A56300E39DB7 /* MLSearchBar.m in Sources */,
+				4820BC8C2084A65100E39DB7 /* UIView+MLViewContrller.m in Sources */,
+				4820BC8F2084A65100E39DB7 /* UIViewController+MLStatusBarStyle.m in Sources */,
+				4820BC9F2084A84400E39DB7 /* MLResultTableViewController.m in Sources */,
+				4820BC8D2084A65100E39DB7 /* UIView+MLFrame.m in Sources */,
+				4820BC492084A50000E39DB7 /* ViewController.m in Sources */,
+				4820BC542084A50200E39DB7 /* main.m in Sources */,
+				4820BC932084A71E00E39DB7 /* MLSearchTempViewController.m in Sources */,
+				4820BC7E2084A56300E39DB7 /* MLSearchTextField.m in Sources */,
+				4820BC462084A50000E39DB7 /* AppDelegate.m in Sources */,
+				4820BC902084A65100E39DB7 /* UIView+MLTableView.m in Sources */,
+				4820BC8E2084A65100E39DB7 /* UIView+MLTouch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820BC552084A50300E39DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4820BC5E2084A50300E39DB7 /* MLSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820BC602084A50300E39DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4820BC692084A50300E39DB7 /* MLSearchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4820BC5B2084A50300E39DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4820BC402084A50000E39DB7 /* MLSearch */;
+			targetProxy = 4820BC5A2084A50300E39DB7 /* PBXContainerItemProxy */;
+		};
+		4820BC662084A50300E39DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4820BC402084A50000E39DB7 /* MLSearch */;
+			targetProxy = 4820BC652084A50300E39DB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4820BC4A2084A50000E39DB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4820BC4B2084A50000E39DB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4820BC4F2084A50200E39DB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4820BC502084A50200E39DB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4820BC6B2084A50300E39DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4820BC6C2084A50300E39DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4820BC6E2084A50300E39DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = MLSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ML-Day.MLSearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4820BC6F2084A50300E39DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = MLSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ML-Day.MLSearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4820BC712084A50300E39DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = MLSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ML-Day.MLSearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLSearch.app/MLSearch";
+			};
+			name = Debug;
+		};
+		4820BC722084A50300E39DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = MLSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ML-Day.MLSearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLSearch.app/MLSearch";
+			};
+			name = Release;
+		};
+		4820BC742084A50300E39DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = MLSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ML-Day.MLSearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLSearch;
+			};
+			name = Debug;
+		};
+		4820BC752084A50300E39DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = MLSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ML-Day.MLSearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4820BC3C2084A50000E39DB7 /* Build configuration list for PBXProject "MLSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4820BC6B2084A50300E39DB7 /* Debug */,
+				4820BC6C2084A50300E39DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4820BC6D2084A50300E39DB7 /* Build configuration list for PBXNativeTarget "MLSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4820BC6E2084A50300E39DB7 /* Debug */,
+				4820BC6F2084A50300E39DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4820BC702084A50300E39DB7 /* Build configuration list for PBXNativeTarget "MLSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4820BC712084A50300E39DB7 /* Debug */,
+				4820BC722084A50300E39DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4820BC732084A50300E39DB7 /* Build configuration list for PBXNativeTarget "MLSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4820BC742084A50300E39DB7 /* Debug */,
+				4820BC752084A50300E39DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4820BC392084A50000E39DB7 /* Project object */;
+}
